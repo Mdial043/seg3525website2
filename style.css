@@ -1,0 +1,163 @@
+@media (max-width: 767.98px) {
+    .text1, .adresse{  font-size: 20px;} .beard{margin-left: 20%; margin-top: 10%;} .titre{margin-left: 25%; margin-top: 10%;}  .titre1{margin-left:5%; margin-top:2%;} 
+    .titre2{margin-left:15%; margin-top:8%;}    .month{  height:3rem;} .card{margin-left: 10%;} .box1{margin-bottom: 15%;} .s1{
+
+       
+         height: 100px;
+        
+     }
+     } 
+  
+
+  @media (min-width: 767.98px) and (max-width:1199.98px) {
+    .text1{  font-size: 25px;}
+    .beard{margin-left: 20%; margin-top: 10%;} .titre{margin-left: 25%; margin-top: 10%;} .titre2 , .titre1{margin-left: 25%; margin-top:2%;} .s1{
+
+        background-color:#6e5f5f ;
+         height: 300px;
+         opacity: 0.9;
+     }
+     
+  }
+  @media (min-width: 1199.98px) { .text1{  font-size:30px;} .heures{ width: 75%; }  .beard{margin-left: 20%; margin-top: 10%;} .titre{margin-left: 35%; margin-top: 15%;} 
+  .titre2 , .titre1{margin-left: 25%; margin-top:2%;} 
+  .s2{width: 75%; margin-left: 15%; } .section1{margin-bottom: 20%; } 
+  .forme{ height: 70px;  }
+  .s1{
+
+    background-color:#6e5f5f ;
+     height: 300px;
+     opacity: 0.9;
+ }
+ 
+} 
+main{background-image: url('../SEG3525WEBSITE/images/background.jpg');}
+  .beard{ color: #080808;}
+.cal {
+    width: 100%;
+    height: 35rem;
+  
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.calendar {
+    width: 45rem;
+    height: 30rem;
+    background-color: #080808;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+    margin-right: 45%;
+  }
+  .titre,.titre2{color: black;}
+  .month {
+    width: 100%;
+    height: 8rem;
+    background-color: #63718f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .month i {
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  .month h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .month p {
+    font-size: 1.6rem;
+  }
+  
+  .weekdays {
+    width: 100%;
+    height: 5rem;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .weekdays div {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(44.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  .days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+  }
+  
+  .days div {
+    font-size: 1.4rem;
+    margin: 0.3rem;
+    width: calc(40.2rem / 7);
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+  }
+  
+  .days div:hover:not(.today) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+  }
+  
+  .prev-date,
+  .next-date {
+    opacity: 0.5;
+  }
+  .section1{ background-color: #4d4141;
+opacity: 0.9;
+color: white;
+}
+.services{ background-color: rgba(223, 213, 213, 0.884);
+    opacity: 1;
+    color: white;
+    }
+.heures{line-height: 2.5rem; }
+.ouverture{margin-top: 5%;}
+.back{background-color: #b6aaaa;}
+.about{ background-color: rgba(20, 20, 20, 0.938);
+    opacity: 1;
+   }
+  .reservation{
+margin-left: 25px;
+color: #4d4141;
+border-radius: 4px;
+padding: 6px 25px 8px 25px;
+white-space: nowrap;
+transition: 0.3s;
+font-size: 13px;
+display: inline-block;
+text-transform: uppercase;
+font-weight: 400;
+border: 2px solid red;
+  }
+  .navbar{color: white;}
+.s1{
+
+   background-color:#6e5f5f ;
+    height: 300px;
+    opacity: 0.9;
+}
