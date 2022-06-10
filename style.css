@@ -2,9 +2,9 @@
     .text1, .adresse{  font-size: 20px;} .beard{margin-left: 20%; margin-top: 10%;} .titre{margin-left: 25%; margin-top: 10%;}  .titre1{margin-left:5%; margin-top:2%;} 
     .titre2{margin-left:15%; margin-top:8%;}    .month{  height:3rem;} .card{margin-left: 10%;} .box1{margin-bottom: 15%;} .s1{
 
-       
-         height: 100px;
-        
+      background-color:#6e5f5f ;
+         height: 500px;
+         opacity: 0.9;
      }
      } 
   
@@ -31,7 +31,7 @@
  }
  
 } 
-main{background-image: url('../SEG3525WEBSITE/images/background.jpg');}
+main{background: url('../SEG3525WEBSITE/images/background.jpg') no-repeat center center fixed;  background-size: cover;}
   .beard{ color: #080808;}
 .cal {
     width: 100%;
@@ -154,10 +154,9 @@ text-transform: uppercase;
 font-weight: 400;
 border: 2px solid red;
   }
-  .navbar{color: white;}
-.s1{
+  
 
-   background-color:#6e5f5f ;
-    height: 300px;
-    opacity: 0.9;
+.navigatio{
+  background: #a39a9a; 
 }
+
